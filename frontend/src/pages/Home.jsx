@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Ads from './Ads'; // ⬅️ Import the Ads component
 
 export const Home = () => {
     const navigate = useNavigate();
@@ -180,9 +179,6 @@ export const Home = () => {
                         Advertisement
                         </div>
                     </div>
-
-                    {/* Replaced ad block with Ads component */}
-                    <Ads />
                 </div>
                 
             </aside>
